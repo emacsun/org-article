@@ -1,16 +1,18 @@
 * Org-article
   - Tangle an article class for Org-mode LaTeX export
   - It is forked from https://github.com/tsdye/org-article.git
-  
+
 * Update info
   - adding support for Chinese characters using the famous ctex package
-  
+
   Now, by adding the two lines at the beginning of you Org file, everything follows up:
   #+LaTeX_CLASS: org-article
   #+LaTeX_CLASS_OPTIONS: [koma,ctex,a5paper,DIV=15,landscape,10pt,listings-sv,microtype,paralist]
- 
-  Notice, the key is the ctex, the other options are backward compatible.
-  
+
+  Notice, the key is the ctex, the other options are backward compatible. Also it only works on Windows. For linux, more work need to be done.
+
   Enjoy Emacs, Enjoy Latex.
+
+
 
 2018
